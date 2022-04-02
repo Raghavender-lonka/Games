@@ -38,3 +38,23 @@ img {
 h1, h2 {
     color: aliceblue;
 }
+
+@media all and (max-width: 460px) {
+    #grid {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    }
+    
+    main {
+        width: 100vw;
+        position: relative;
+        top: 100px;
+    }
+
+}
